@@ -1,0 +1,176 @@
+body {
+    @extend %my-container;
+
+    .index-header {
+        @include goFlex(row, space-between, center);
+        padding: 20px 30px;
+        
+        ul {
+            width: 400px;
+            @include goFlex(row, space-between, center);
+            padding: 5px 0;
+
+            li {
+                color: $primaryColor;
+                font-size: $primaryFontSize;
+                font-weight: $primaryfontweight
+            }
+        }
+    }
+
+
+
+    .index-main{
+        
+       
+        h1{
+            color: $primaryColor;
+            font-size: $secondaryFontSize;
+            font-weight: $primaryfontweight;
+            padding: 50px 40px 40px 25px;
+        }
+
+        section{
+            @include goFlex (row,space-around);
+            margin-left: -65px;
+            
+            
+        
+
+        .index-section{
+            margin-left: 25px;
+            width: 350px;
+            height: 360px;
+            
+
+            div{
+            height: 170px;
+            padding-top: 70px;
+            padding-left: 40px;
+            }
+
+            h2{
+            color: $secondaryColor;
+            font-size: $thirdFondSize;
+            margin-top: -150px;
+            font-weight: $primaryfontweight;
+            
+            
+        }
+
+            p{
+            width: 250px;
+            margin-bottom: 10px;
+            font-size: $primaryFontSize;
+            font-weight: $primaryfontweight;
+            color: #8A8787;
+            line-height: 20px;
+            margin-left: -40px;
+        }
+
+            .clock-icon{
+            vertical-align: middle;
+        }
+
+            span{
+            font-size: $primaryFontSize;
+            font-weight: $primaryfontweight;
+            color: #8A8787;
+            vertical-align: middle;
+        }
+
+        }
+    }
+
+            .content{
+                position: relative;
+                
+            }
+        
+            .index-left-side{
+            @include goFlex( space-between);
+            margin-left: 60px;
+
+            .img1{
+                padding-bottom: 50px;
+                padding-top: 30px;
+                margin-left: 25px;
+            }
+        
+        }
+
+            
+            h4{
+            position: absolute;
+            color: $secondaryColor;
+            font-size: $secondaryFontSize;
+            margin-bottom: 40px;
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 200px;
+            font-weight: $primaryfontweight;
+            
+            
+        }
+
+        .index-right-side{
+            @include goFlex (row);
+            gap: 100px;
+            margin-left: 850px;
+            margin-top: -980px;
+            
+
+        }
+
+    
+
+}
+
+        .index-footer{
+            background-color: #243043;
+            width: 100%;
+            height:240px;
+            margin-top: 150px;
+
+          nav{
+            padding: 20px 20px 10px 80px;
+          
+
+          .ul{
+            margin-top: 50px;
+          }
+         
+          .ul2{
+           margin-left: 80px;
+           margin-top: -135px;
+          }
+
+          .ul3{
+            margin-left: 180px;
+            margin-top: -165px;
+            
+          }
+
+          li{
+            color: $thirdcolor;
+            font-size: $primaryFontSize;
+            font-weight: $primaryfontweight;
+            margin-bottom: 15px;
+          }
+        }
+
+          h5{
+            margin-left: 600px;
+            margin-top: -180px;
+            color: $secondaryColor;
+            font-size: 15px;
+          }
+           .logo1{
+            margin-left: 1300px;
+            margin-top: -50px;
+           }
+           
+        }
+        
+    
+}
